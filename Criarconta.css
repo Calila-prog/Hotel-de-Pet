@@ -1,0 +1,156 @@
+body {
+    position: absolute;
+width: 1428px;
+height: 1024px;
+left: 12px;
+top: 0px;
+
+/* Surface */
+
+background: #ffffff;
+/* Border / Subtle */
+
+border: 3px solid #ffffff;
+box-sizing: border-box;
+border-radius: 8px;
+}
+
+h3{
+    position: static;
+    width: 109px;
+    height: 112px;
+    left: 0px;
+    top: 0px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 48px;
+    
+    /* Primary */
+    
+    color: #074EE8;
+    
+    
+    /* Inside Auto Layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 20px 0px;
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em
+}
+.Login{
+position: absolute;
+width: 482px;
+height: 864px;
+left: 900px;
+top: 136px;
+
+background: #E5E5E5;
+    
+}
+.tudo{
+    position: absolute;
+width: 432px;
+height: 509px;
+left: 25px;
+top: 223px;
+
+
+}
+
+.nav-item{
+    position: absolute;
+width: 500px;
+height: 18px;
+left: 320px;
+top: 176px;
+
+/* Components / Normal Label */
+
+font-family: Abel;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 18px;
+/* identical to box height, or 112% */
+
+
+color: #074EE8;
+}
+
+.entrar{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px 12px;
+
+position: absolute;
+width: 432px;
+height: 40px;
+left: 0,5px;
+top: 196px;
+
+/* Primary */
+
+background: #074EE8;
+border-radius: 4px;
+}
+
+.icone{
+    position: absolute;
+left: 173px;
+right: 153px;
+top: 250px;
+bottom: 223px;
+border: 3px;
+font-size: 34px;
+
+}
+.hr{
+    position: absolute;
+    left: 4px;
+    right: 100px;
+    top: 230px;
+    bottom: 223px;
+    
+}
+
+.cadastra-se{
+    position: absolute;
+    left: 150px;
+    right: 133px;
+    top: 300px;
+    bottom: 223px;
+
+/* Base / XL */
+
+font-family: Abel;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 26px;
+/* identical to box height, or 108% */
+
+
+color: #074EE8;
+}
+
+img{
+    position: absolute;
+    width: 700px;
+    height: 688px;
+    left: 23px;
+    top: 427px;
+}
+
+
+
+
+

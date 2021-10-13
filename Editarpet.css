@@ -1,0 +1,276 @@
+.container{
+    position: relative;
+width: 1424px;
+height: 1219px;
+
+background: #FFFFFF;
+}
+
+.h3{
+    position: static;
+    width: 179px;
+    height: 48px;
+    left: 0px;
+    top: 0px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 48px;
+    
+    /* Primary */
+    
+    color: #074EE8;
+    
+    
+    /* Inside Auto Layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 4px 0px;
+}
+.Menu{
+    position: absolute;
+    width: 227px;
+    height: 905px;
+    left: 0px;
+    top: 20px;
+    font-size: 0.95em;
+
+    width: 19,5%;
+    border-right: 2px solid #AAAAAA;
+}
+.iconemenu{
+    position: static;
+    height: 48px;
+    left: 0px;
+    right: 13px;
+    top: 48px;
+
+    /* Primary Background */
+
+    background: #E0EAFF;
+    /* Left Border - Active */
+
+    box-shadow: inset 2px 0px 0px #074EE8;
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 11px 0px;
+}
+
+.Perfil{
+    position: absolute;
+    width: 1428px;
+    height: 1024px;
+    left: 420px;
+    top: 30%;
+    
+    /* Surface */
+    
+    background: #FFFFFF;
+    /* Border / Subtle */
+
+    border-bottom: 2px solid #AAAAAA;
+
+    
+    /* Group 1 */
+    position: absolute;
+    width: 900px;
+    height: 60px;
+    left: 230px;
+    top: 28px;
+
+}
+
+.lo{
+    position: absolute;
+    width: 1100px;
+    height: 60px;
+    left: 830px;
+    top: 28px;
+
+    
+}
+
+.Menuinterno{
+    position: absolute;
+    width: 1428px;
+    height: 1024px;
+    left: 420px;
+    top: 0px;
+    
+    /* Base / XL */
+    
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    
+    display:-webkit-inline-box;
+    align-items:flex-start;
+    
+    color: #000000;
+     /* Group 1 */
+     position: absolute;
+     width: 200px;
+     height: 200px;
+     left: 230px;
+     top: 100px;
+}
+.Pagina{
+    position: absolute;
+    width: 900px;
+    height: 785px;
+    left: 230px;
+    top: 140px;
+
+    background: #F1F1F1;
+}
+.h2{
+    /*titulo editar pet*/
+
+    position: absolute;
+    width: 193px;
+    height: 3px;
+    left: 39x;
+    top: 49px;
+
+    /* Base / XXL */
+
+    font-family: Abel;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 34px;
+    /* identical to box height, or 106% */
+
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+}
+.nome{
+    position: absolute;
+    width: 600px;
+    height: 48px;
+    left: 69px;
+    top: 100px;
+
+    /* Border / Subtle */
+
+    border: 0px solid #AAAAAA;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.tipo{
+    position: absolute;
+    width: 600px;
+    height: 48px;
+    left: 69px;
+    top: 384px;
+    /* Border / Subtle */
+
+    border: 0px solid #AAAAAA;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.raça{
+    position: absolute;
+    width: 600px;
+    height: 48px;
+    left: 69px;
+    top: 196px;
+
+ 
+    /* Border / Subtle */
+
+    border: 0px solid #AAAAAA;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.tamanho{
+    position: absolute;
+    width: 600px;
+    height: 48px;
+    left: 69px;
+    top: 294px;
+    /* Border / Subtle */
+
+    border: 0px solid #AAAAAA;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.button1{
+    /* Auto Layout */
+
+    display: flex;
+    color: #F1F1F1;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 19px;
+
+    position: absolute;
+    width: 159px;
+    height: 55px;
+    left: 80px;
+    top: 566px;
+
+  
+    background: #2d3897;
+    /* Primary */
+
+    border: 3px solid #a1a1a1;
+    box-sizing: border-box;
+    border-radius: 6px;
+
+} 
+.button2{
+    /* Auto Layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 19px;
+
+    position: absolute;
+    width: 159px;
+    height: 55px;
+    left: 499px;
+    top: 566px;
+
+    /* Surface */
+
+    background: #FFFFFF;
+    /* Primary */
+
+    border: 2px solid #074EE8;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.dois{
+       /*position: absolute;*/
+position: absolute;
+width: 118px;
+height: 140px;
+left: 695px;
+top: 266px;
+
+/* Background */
+
+background: #EEEEEE;
+/* Border / Subtle */
+
+border: 2px solid #AAAAAA;
+box-sizing: border-box;
+}

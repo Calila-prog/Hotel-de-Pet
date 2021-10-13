@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="Editarpet.css">
+    <title>Editar Pet</title>
+  </head>
+  <body>
+    <!-- Optional JavaScript; choose one of the two! -->
+     <div class="container">
+        <div class="row">
+          <div class="Menu">
+            <h3 class="h3">Hotel Pet</h3>
+            <div class="iconemenu">
+              <nav class="nav flex-column">
+                <a class="nav-link active" aria-current="page" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                  <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                </svg> Pet</a>
+                <a class="nav-link" href="#" >    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-book-half" viewBox="0 0 16 16">
+                    
+                  <path d="M8.5 2.687c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492V2.687zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z"/>
+                </svg> Reservas</a>
+              </nav>
+              </div> 
+          </div>
+          
+          <div class="col-sm-9">
+            <div class="row">
+              <div class="col-8 col-sm-6">
+                <div class="Perfil">
+                    <div class="lo">
+                        <svg  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                            <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                          </svg>
+                          <lo>Perfil</lo>
+                    </div>
+                  </div>
+                  <div class="Menuinterno">
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                              <li class="breadcrumb-item"><a href="#">Home</a></li>
+                              <li class="breadcrumb-item"><a href="#">Pets</a></li>
+                              <li class="breadcrumb-item active" aria-current="page">Reservas</li>
+                            </ol>
+                          </nav>
+                  </div>
+                  <div class="Pagina">
+                    <h3 class="h2">Editar Pet</h3>
+                    <div class="nome">
+                      <input type="nome" class="form-control" id="floatingInput" placeholder="Pet">
+                      <label for="floatingInput">Nome</label>
+                    </div>
+                    <div class="raça">
+                      <input type="password" class="form-control" id="floatingPassword" placeholder="Raça">
+                      <label for="floatingPassword">Raça</label>
+                    </div>
+                    <div class="tamanho">
+                      <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                        <option selected>Tamanho</option>
+                        <option value="1">Grande</option>
+                        <option value="2">Médio</option>
+                        <option value="3">Pequeno</option>
+                      </select>
+                    </div>
+                    <div class="tipo">
+                      <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                        <option selected>Tipo</option>
+                        <option value="1">Grande</option>
+                        <option value="2">Médio</option>
+                        <option value="3">Pequeno</option>
+                      </select>
+                    </div>
+                    <button type="button2" class="button1">Salvar</button>
+                    <button type="button2" class="button2">Limpar</button>
+                    <img class="dois" src="Cautious dog-pana.png" alt="gog"> 
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    
+  </body>
+</html>

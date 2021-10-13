@@ -1,0 +1,196 @@
+.container{
+    position: relative;
+width: 1424px;
+height: 1219px;
+
+background: #FFFFFF;
+}
+
+.h3{
+    position: static;
+    width: 179px;
+    height: 48px;
+    left: 0px;
+    top: 0px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 48px;
+    
+    /* Primary */
+    
+    color: #074EE8;
+    
+    
+    /* Inside Auto Layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 4px 0px;
+}
+.Menu{
+    position: absolute;
+    width: 227px;
+    height: 905px;
+    left: 0px;
+    top: 20px;
+    font-size: 0.95em;
+
+    width: 19,5%;
+    border-right: 2px solid #AAAAAA;
+}
+.iconemenu{
+    position: static;
+    height: 48px;
+    left: 0px;
+    right: 13px;
+    top: 48px;
+
+    /* Primary Background */
+
+    background: #E0EAFF;
+    /* Left Border - Active */
+
+    box-shadow: inset 2px 0px 0px #074EE8;
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 11px 0px;
+}
+
+.Perfil{
+    position: absolute;
+    width: 1428px;
+    height: 1024px;
+    left: 420px;
+    top: 30%;
+    
+    /* Surface */
+    
+    background: #FFFFFF;
+    /* Border / Subtle */
+
+    border-bottom: 2px solid #AAAAAA;
+
+    
+    /* Group 1 */
+    position: absolute;
+    width: 900px;
+    height: 60px;
+    left: 230px;
+    top: 28px;
+
+}
+
+.lo{
+    position: absolute;
+    width: 1100px;
+    height: 60px;
+    left: 830px;
+    top: 28px;
+
+    
+}
+
+.Menuinterno{
+    position: absolute;
+    width: 1428px;
+    height: 1024px;
+    left: 420px;
+    top: 0px;
+    
+    /* Base / XL */
+    
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    
+    display:-webkit-inline-box;
+    align-items:flex-start;
+    
+    color: #000000;
+     /* Group 1 */
+     position: absolute;
+     width: 200px;
+     height: 200px;
+     left: 230px;
+     top: 100px;
+}
+.Pagina{
+    position: absolute;
+    width: 900px;
+    height: 785px;
+    left: 230px;
+    top: 140px;
+
+    background: #F1F1F1;
+}
+.a{
+    position: absolute;
+    width: 1236px;
+    height: 34px;
+    left: 35px;
+    top: 31px;
+
+    /* Base / XXL */
+
+    font-family: Abel;
+    /*font-style: normal;*/
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 3px;
+    /* identical to box height, or 106% */
+
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+
+.texto{
+  
+position: absolute;
+width: 26s2px;
+height: 26px;
+left: 240px;
+top: 394px;
+
+/* Base / XL */
+
+font-family: Abel;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 34px;
+/* identical to box height, or 108% */
+
+display: flex;
+align-items: center;
+
+color: #000000;
+
+}
+.img{
+    /*position: absolute;*/
+width: 70px;
+height: 67.88px;
+left: 43px;
+top: 67px;
+
+/* Background */
+
+background: #EEEEEE;
+/* Border / Subtle */
+
+border: 2px solid #AAAAAA;
+box-sizing: border-box;
+}
